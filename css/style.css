@@ -1,0 +1,420 @@
+/*********************CSS Reset******************/
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/**************** General  ****************/
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.7rem;
+    
+}
+
+a
+{
+    text-decoration:none;
+    color:white;
+}
+
+/**************** Nav Bar ****************/
+
+header
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#323334;
+    text-align:right;
+    height:70px;
+    width:100%;
+    align-items: center;
+    position:sticky;
+    top:0;
+}
+
+.logo
+{
+    text-align: left;
+    text-decoration:none;
+    font-weight: bold;
+    font-size:1.5rem;
+    letter-spacing:2px;
+    color:white;
+    align-items: center;
+    margin-left: 95px;
+}
+
+.nav-links
+{
+    display:inline-block;
+    padding-right: 50px;
+}
+
+ul
+{
+    text-align:right;
+    text-decoration:none;
+    color:white;
+    margin-right:100px;
+}
+
+.home-color
+{
+    color: #edba8a;
+}
+/**************** Home Hero ****************/
+
+.hero
+{
+    height:600px;
+    background-image: url(../img/showcase.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    color:white;
+    text-align:center;
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.enjoy-color
+{
+    color:#edba8a;
+}
+
+.hero h1
+{
+    font-size: 2rem;
+    margin-bottom: 36px;
+}
+
+.hero p 
+{
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom: 36px;
+   
+}
+
+.hero a
+{
+    border: none;
+    padding: 1.2rem 1rem;
+    cursor: pointer;
+    border-radius: 0px;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+    background-color: #323232 ;
+    color:white;
+}
+
+/**************** Home The History of Our Hotel ****************/
+
+.the-history
+{
+    height:300px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.history-color
+{
+    color:#edba8a;
+}
+
+.the-history h2
+{
+    margin-bottom: 20px;
+    padding-top:60px;
+}
+
+.the-history p 
+{
+    margin-bottom: 40px;
+}
+
+.the-history img
+{
+    width:100%;
+    height:301px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.the-history > article
+{
+    background:#323334;
+    color:white;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.the-history > article > a
+{
+    border: none;
+    padding: 1.2rem 1rem;
+    cursor: pointer;
+    border-radius: 0px;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+    background-color: white ;
+    color:black;
+}
+
+/**************** Home Amenities ****************/
+
+.amenities
+{
+    display:grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.amenities i 
+{
+    margin-top:20px;
+    font-size:2.5rem;
+}
+
+.amenities p 
+{
+    margin-top:10px;
+    padding: 0 10px 10px 10px;
+}
+
+.amenities > div:nth-child(odd)
+{
+    background-color: white;
+}
+
+.amenities > div:nth-child(even)
+{
+    background-color: #f7bf8b;
+}
+
+/**************** About Hotel FSD ****************/
+
+.about-hotel
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#f3f4f5;
+    justify-items: center;
+    align-items: center;
+}
+
+.about-hotel h1
+{
+    font-size:2rem;
+    margin-bottom: 36px;
+}
+
+.about-color
+{
+    color:#edba8a;
+}
+
+.about-hotel img
+{
+    width:60%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-hotel >div:nth-child(1)
+{
+    margin-left:90px;
+    margin-right:20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.about-hotel >div:nth-child(2)
+{
+    margin-left:80px;
+}
+
+/**************** About What Our Guests Say ****************/
+
+.what-guests-say
+{
+    background-image: url(../img/test-bg.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:650px;
+}
+
+.what-guests-say h1
+{
+    color:white;
+    font-weight:600;
+    font-size:2rem;
+    text-align: center;
+    padding: 150px 0 0 0;
+    margin-bottom: 50px;
+}
+
+.what-guests-say img
+{
+    border-radius: 50%;
+    width:80%
+}
+
+.review-1
+{
+    display:grid;
+    grid-template-columns: 1fr 9fr;
+    row-gap: 5px;
+    background-color: #e9b98a;
+    justify-items: center;
+    align-items: center;
+    margin-bottom:50px;
+    margin-left:90px;
+    margin-right:90px;
+    border-radius:5px;
+    padding: 15px 5px 15px 5px;
+}
+
+.review-2
+{
+    display:grid;
+    grid-template-columns: 1fr 9fr;
+    row-gap: 5px;
+    background-color: #e9b98a;
+    justify-items: center;
+    align-items: center;
+    margin-bottom:50px;
+    margin-left:90px;
+    margin-right:90px;
+    border-radius:5px;
+    padding: 15px 5px 15px 5px;
+}
+
+/**************** Footer ****************/
+.footer
+{
+    height: 70px;
+    background-color: #434445;
+    color:white;
+    text-align: center;
+    padding-top:20px;
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    header
+    {
+        grid-template-columns:1fr;
+        justify-self: center;
+        margin:0;
+        padding:0;
+        height:auto;
+    }
+
+    .nav-links
+    {
+        display:block; 
+        margin:0;
+        padding:0;  
+        justify-self: center;
+        margin-right:0;
+        text-align: center;
+    }
+
+    ul
+    {
+        margin-right:0px; 
+    }
+    .logo
+    {
+        
+        text-align: center;
+        margin:0;
+    }
+}
+
+ /*/ Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) { 
+    header
+    {
+        grid-template-columns:1fr;
+        justify-self: center;
+        margin:0;
+        padding:0;
+        height:auto;
+    }
+
+    .nav-links
+    {
+        display:block; 
+        margin:0;
+        padding:0;  
+        justify-self: center;
+        margin-right:0;
+        text-align: center;
+    }
+
+    ul
+    {
+        margin-right:0px; 
+    }
+    .logo
+    {
+        
+        text-align: center;
+        margin:0;
+    }
+
+    .hero
+    {
+        height:50vh;
+        background-color: red;
+    }
+
+    .the-history
+    {
+        grid-template-columns: 1fr;
+        background-color: red;
+        height:auto;
+    }
+
+    .the-history h2
+    {
+        margin-bottom: 10px;
+        padding-top:30px;
+    }
+
+    .the-history p 
+    {
+        margin-bottom: 10px;
+    }
+    
+    .amenities
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .the-history img
+    {
+        display:none;
+    }
+ }
+
+ /*/ Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {}*/
+
+
+
